@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/oconn/source/repos/SFML_For_Fun/out/build/x64-Debug/SFML_For_Fun/CMakeFiles/SFML_For_Fun.dir/embed.manifest"
