@@ -7,7 +7,7 @@ cmake_minimum_required (VERSION 3.8)
 find_package(SFML REQUIRED system window graphics network audio)
 include_directories(${SFML_INCLUDE_DIR})
 
-add_executable (SFML_For_Fun "SFML_For_Fun.cpp" "SFML_For_Fun.h")
+add_executable (SFML_For_Fun "SFML_For_Fun.cpp" "SFML_For_Fun.h" "Hero.h" "Hero.cpp")
 
 target_link_libraries(SFML_For_Fun PUBLIC sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
 
