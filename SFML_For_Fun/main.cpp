@@ -1,5 +1,4 @@
-﻿// SFML_For_Fun.cpp : Defines the entry point for the application.
-//
+﻿// main.cpp : Defines the entry point for the application.
 #include "main.h"
 #include "SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
@@ -20,7 +19,7 @@ sf::Sound hit_sound(hit_buffer);
 sf::Vector2f view_size(1024, 768);
 sf::VideoMode video_mode(view_size.x, view_size.y);
 
-sf::RenderWindow window(video_mode, "Hello SFMLGame !!!",
+sf::RenderWindow window(video_mode, "Tiny Bazooka",
 	sf::Style::Default);
 
 void spawnEnemy();
@@ -337,6 +336,7 @@ void draw()
 
 int main()
 {
+	
 	// Initialize timer
 	sf::Clock clock;
 	// Initialize Game Objects
@@ -363,3 +363,5 @@ int main()
 	}
 	return 0;
 }
+
+
